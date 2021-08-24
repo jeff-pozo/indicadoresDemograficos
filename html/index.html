@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="index, follow">
+        <link rel="stylesheet" href="../css/style.css">
+        <title>
+            Pozo
+        </title>
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <section>
+            <p>Calcule Indicadores Demográficos</p>
+        </section>
+        <main class="main">
+            <section class="main__container">
+            <!-- Tarjeta del indice de densidad -->
+                <div class="main__container--densidad">
+                    <p>Densidad Poblacional</p>
+                    <form action="">
+                        <label for="densidad__personas">
+                            <span>Número de individuos</span> 
+                            <input type="text" id="densidad__personas">
+                        </label>
+                    </form>
+                    <form action="">
+                        <label for="superficie">
+                            <span>Superficie en KM^</span>
+                            <input type="text" id="superficie">
+                        </label>
+                    </form>
+                    <button class="densidad__button">Calcular</button>
+                    <form action="">
+                        <label for="densidad__resultado">
+                            <span>Resultado</span>
+                            <input type="text" id="densidad__resultado">
+                        </label>
+                    </form>
+                </div>
+            <!-- Tarjeta de indice de natalidad -->
+                <div class="main__container--natalidad">
+                    <p>Indice de Natalidad</p>
+                    <form action="">
+                        <label for="natalidad__nacimientos">
+                            <span>Número de nacimientos en un año</span> 
+                            <input type="text" id="natalidad__nacimientos">
+                        </label>
+                    </form>
+                    <form action="">
+                        <label for="natalidad__poblacion">
+                            <span>Población total</span>
+                            <input type="text" id="natalidad__poblacion">
+                        </label>
+                    </form>
+                    <button class="natalidad__button">Calcular</button>
+                    <form action="">
+                        <label for="natalidad__resultado">
+                            <span>Resultado</span>
+                            <input type="text" id="natalidad__resultado">
+                        </label>
+                    </form>
+                </div>
+            <!-- Tarjeta de indice de mortalidad -->
+                <div class="main__container--mortalidad">
+                    <p>Índice de Mortalidad</p>
+                    <form action="">
+                        <label for="mortalidad__difunciones">
+                            <span>Número de difunciones en un año</span> 
+                            <input type="text" id="mortalidad__difunciones">
+                        </label>
+                    </form>
+                    <form action="">
+                        <label for="mortalidad__poblacion">
+                            <span>Población total</span>
+                            <input type="text" id="superficie">
+                        </label>
+                    </form>
+                    <button class="mortalidad__button">Calcular</button>
+                    <form action="">
+                        <label for="mortalidad__resultado">
+                            <span>Resultado</span>
+                            <input type="text" id="mortalidad__resultado">
+                        </label>
+                    </form>
+                </div>
+            <!-- Tarjeta de tasa neta de migración -->
+                <div class="main__container--migracion">
+                    <p>Densidad poblacional</p>
+                    <form action="">
+                        <label for="migracion__inmigrantes">
+                            <span>Número de inmigrantes</span> 
+                            <input type="text" id="migracion__inmigrantes">
+                        </label>
+                    </form>
+                    <form action="">
+                        <label for="migracion__emigrantes">
+                            <span>Número de emigrantes</span>
+                            <input type="text" id="migracion__emigrantes">
+                        </label>
+                    </form>
+                    <form action="">
+                        <label for="migracion__poblacion">
+                            <span>Población total</span>
+                            <input type="text" id="migracion__poblacion">
+                        </label>
+                    </form>
+                    <button class="migracion__button">Calcular</button>
+                    <form action="">
+                        <label for="migracion__resultado">
+                            <span>Resultado</span>
+                            <input type="text" id="migracion__resultado">
+                        </label>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
